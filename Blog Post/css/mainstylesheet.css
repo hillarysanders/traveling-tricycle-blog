@@ -1,0 +1,85 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+}
+
+@font-face {
+	font-family: PC;
+	src: url("PrintClearly.otf") format("opentype");
+}
+
+@font-face {
+	font-family: PCbold;
+	src: url("PrintBold.otf") format("opentype");
+}
+
+h1 {
+	font-family: "PCbold", sans-serif;
+	font-size: 3.3vw;
+	color: white;
+	background-color: rgba(0, 0, 0, .9);
+	padding-left: .5vw; 
+	margin-bottom: .5vw;
+
+}
+
+h2 {
+	font-family: "PC", sans-serif;
+	font-size: 1.5vw;
+	padding: 0vw .2vw .2vw .2vw;
+}
+
+.fourcol {
+	position: relative;
+	background-color: blue;
+	float: left;
+	margin-left: 1vw;
+	width: 23.75%;
+	margin-top: 1vw;
+}
+
+.postimage {
+	margin-bottom: -4px;
+
+	width: 100%;
+}
+
+.fullwidthpic {
+	width: 97vw;
+	margin-left: 1vw;
+	margin-right: 2vw;
+	margin-top: 1vw;
+}
+
+.textbox {
+	position: absolute;
+	background-color: white;
+	font-size: 20px;
+	width: 100%;
+	height: calc((95vw - 1vw) * (2 / 3) / 4);
+	background-color: #eee;
+}
+
+.textboxdoublehi {
+	position: absolute;
+	background-color: white;
+	font-size: 20px;
+	width: 100%;
+	height: calc(((97vw - 0vw) * (2 / 3) / 4) * 2);
+	z-index: 10;
+	background-color: #eee;
+}
+
+.textboxdoublewi {
+	position: absolute;
+	background-color: white;
+	font-size: 20px;
+	width: calc(200% + 1vw);
+	height: calc((95vw - 1vw) * (2 / 3) / 4);
+	z-index:10;
+	background-color: #eee;
+}
